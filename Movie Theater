@@ -1,0 +1,35 @@
+import javax.management.StringValueExp
+
+fun main(args:Array<String>) {
+
+
+   // rating = String
+
+    print("Enter Movie Rating:")
+
+    val rating:String = readLine()!!
+    println(rating)
+
+
+   println("Please enter your age:")
+      // val age :
+       //   var age : Int = readLine()!!.toInt()
+        val age: Int = readln().toInt()
+        println(age)
+
+
+            if (age > 17) {
+                //{
+                println("you may enter into the movie")
+            }
+
+           // }
+            else
+
+    //{
+        if (age < 17)  {
+       // {
+            println("You may not enter into the movie")
+        }
+
+}
